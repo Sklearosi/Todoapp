@@ -10,7 +10,7 @@ function App() {
     if(window.innerWidth < 920) {
     document.querySelector('.moon').style.display = "block"
     document.querySelector('.sun').style.display = "none"
-    document.querySelector('.background').style.backgroundImage = "url(./bg-mobile-dark.jpg)"
+    document.querySelector('.background').style.backgroundImage = "url(/bg-mobile-dark.jpg)"
     document.body.style.backgroundColor = "#171823"
     document.querySelector('.selection').style.boxShadow = "none"
     document.querySelector('.selection').style.backgroundColor = "#25273D"
@@ -26,7 +26,7 @@ function App() {
     } else if (window.innerWidth >= 920) {
       document.querySelector('.moon').style.display = "block"
       document.querySelector('.sun').style.display = "none"
-      document.querySelector('.background').style.backgroundImage = "url(./bg-desktop-dark.jpg)"
+      document.querySelector('.background').style.backgroundImage = "url(/bg-desktop-dark.jpg)"
       document.body.style.backgroundColor = "#171823"
     document.querySelector('.selection').style.boxShadow = "none"
     document.querySelector('.selection').style.backgroundColor = "#25273D"
@@ -46,7 +46,7 @@ function App() {
     if(window.innerWidth < 920) {
     document.querySelector('.moon').style.display = "none"
     document.querySelector('.sun').style.display = "block"
-    document.querySelector('.background').style.backgroundImage = "url(./bg-mobile-light.jpg)"
+    document.querySelector('.background').style.backgroundImage = "url(/bg-mobile-light.jpg)"
     document.body.style.backgroundColor = "white"
     document.querySelector('.selection').style.boxShadow = "0px 35px 50px -15px #C2C3D680"
     document.querySelector('.selection').style.backgroundColor = "white"
@@ -62,7 +62,7 @@ function App() {
     } else if (window.innerWidth >= 920) {
       document.querySelector('.moon').style.display = "none"
     document.querySelector('.sun').style.display = "block"
-      document.querySelector('.background').style.backgroundImage = "url(./bg-desktop-light.jpg)"
+      document.querySelector('.background').style.backgroundImage = "url(/bg-desktop-light.jpg)"
       document.body.style.backgroundColor = "white"
     document.querySelector('.selection').style.boxShadow = "0px 35px 50px -15px #C2C3D680"
     document.querySelector('.selection').style.backgroundColor = "white"
